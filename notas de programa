@@ -1,3 +1,6 @@
 composer require laravel/ui
 php artisan ui bootstrap
 php artisan ui bootstrap --auth
+composer require livewire/livewire
+ayudara a hacer cambios parta por ejemplo cambiar las rutas
+php artisan livewire:publish --config
