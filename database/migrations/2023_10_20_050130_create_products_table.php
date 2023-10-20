@@ -19,7 +19,7 @@ return new class extends Migration
             $table->decimal('price',10,2)->default(0);
             $table->integer('stock')->default(0);
             $table->integer('alert')->default(5);
-            $table->integer('image')->default(5);
+            $table->string('image',40)->default(5);
             $table->unsignedBigInteger('category_id');
             $table->foreign('category_id')->references('id')->on('categories');
             $table->timestamps();
