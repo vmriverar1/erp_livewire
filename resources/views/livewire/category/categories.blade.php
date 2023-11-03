@@ -80,7 +80,7 @@
             $('#exampleModal').modal('hide');
         })
         
-        window.livewire.on('hidden.bs.midal',msg =>{
+        window.livewire.on('hidden.bs.modal',msg =>{
             $('.er').css('display','none');
         })
         

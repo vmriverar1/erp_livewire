@@ -104,16 +104,14 @@ class Categories extends Component
 
             if($imageName != null)
             {
-                if ($imageName != null) {
-                    if (file_exists("storage/categories".$imageName)) {
-                        unlink("storage/categories".$imageName);
-                    }
+                if (file_exists("storage/categories".$imageName)) {
+                    unlink("storage/categories".$imageName);
                 }
             }
         }
 
         $this->resetUI();
-        $this->emit("category-updated","Categoria creada");
+        $this->emit("category-updated","Categoria actualizada");
     }
 
     public function resetUI()
