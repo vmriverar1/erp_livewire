@@ -4,3 +4,7 @@ php artisan ui bootstrap --auth
 composer require livewire/livewire
 ayudara a hacer cambios parta por ejemplo cambiar las rutas
 php artisan livewire:publish --config
+publicacmos la páginación
+php artisan vendor:publish --tag=laravel-pagination
+determinamos la páginación defaul que hemos crreado
+{{ $categories->links('vendor.pagination.custom') }}

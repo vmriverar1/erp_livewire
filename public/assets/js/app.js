@@ -129,12 +129,12 @@ var App = function() {
 
     var inBuiltfunctionality = {
         mainCatActivateScroll: function() {
-            const ps = new PerfectScrollbar('.menu-categories', {
-                wheelSpeed:.5,
-                swipeEasing:!0,
-                minScrollbarLength:40,
-                maxScrollbarLength:300
-            });
+            // const ps = new PerfectScrollbar('.menu-categories', {
+            //     wheelSpeed:.5,
+            //     swipeEasing:!0,
+            //     minScrollbarLength:40,
+            //     maxScrollbarLength:300
+            // });
         },
         preventScrollBody: function() {
             $('#sidebar').bind('mousewheel DOMMouseScroll', function(e) {
@@ -278,8 +278,8 @@ var App = function() {
             /*
                 In Built Functionality fn
             */
-            inBuiltfunctionality.mainCatActivateScroll();
-            inBuiltfunctionality.preventScrollBody();
+            // inBuiltfunctionality.mainCatActivateScroll();
+            // inBuiltfunctionality.preventScrollBody();
         }
     }
 
